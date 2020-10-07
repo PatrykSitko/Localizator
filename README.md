@@ -6,6 +6,7 @@ Blocks entries from vpn, proxy or thor.
 Uses pseudo db.
 Created to show the power of a click.
 
-## Records user geolocalization on entry page
-Whenever an user tries to connect to the application; the application determines if a vpn, proxy or thor is in use and blocks those kinds of connections;
+## Records user geolocalization on page entry
+Whenever an user tries to connect to the application;
+The application determines if a vpn, proxy or thor is in use and blocks those kinds of connections;
 Otherwise you're allowed to connect and your geo-coordinates are stored into the pseudo db.
