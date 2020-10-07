@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+.notice-turn-off-vpn-container {
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  .notice-turn-off-vpn-wrapper {
+    background-color: whitesmoke;
+    border: 0.25vmin solid #1c4c74;
+    margin: auto;
+    margin-top: 15vmin;
+    max-width: 120vmin;
+    border-radius: 9vmin;
+    border-bottom-left-radius: 8vmin;
+    border-bottom-right-radius: 8vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    padding-bottom: 0.5vmin;
+    .notice-turn-off-vpn {
+      height: 50vmin;
+      border: 10vmin solid transparent;
+      border-left: 12.5vmin solid transparent;
+      border-right: 12.5vmin solid transparent;
+      border-image: url("../../../../images/nice-border.png");
+      border-image-slice: 50%;
+      border-image-width: 50%;
+      .vpn-svg {
+        margin: auto;
+        margin-top: -11.2vmin;
+        width: 15vmin;
+        height: 15vmin;
+      }
+      .text-border {
+        border: 0.5vmin solid #1c4c74;
+        border-radius: 2.5vmin;
+        width: 90%;
+        margin-left: 4%;
+        height: 80%;
+        margin-top: 2.5%;
+        background-color: white;
+        p {
+          font-family: "Roboto", sans-serif;
+          color: #1c4c74;
+          &.first {
+            margin-top: 7vmin;
+          }
+          &.second {
+            margin-top: 5vmin;
+          }
+          text-align: center;
+          font-size: 5vmin;
+          font-weight: bolder;
+          margin: 0;
+        }
+        .vpn {
+          color: black;
+          border: 1vmin solid lightcoral;
+          box-shadow: 0vmin 0vmin 0.3vmin 0.3vmin black;
+          border-radius: 10vmin;
+          padding: 1vmin;
+        }
+      }
+    }
+  }
+}

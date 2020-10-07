@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "startmon": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "ip2proxy-nodejs": "^3.0.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
+    "sqlite3": "^5.0.0",
+    "zlib": "^1.0.5"
+  },
+  "main": "app.js",
+  "author": "Patryk Sitko",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
